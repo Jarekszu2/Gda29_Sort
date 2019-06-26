@@ -1,6 +1,7 @@
 package com.javagda25;
 
 import com.javagda25.bubble.BubbleSort;
+import com.javagda25.counting.CountingSort;
 import com.javagda25.insertion.InsertionSort;
 
 import java.util.Arrays;
@@ -11,8 +12,9 @@ public class Main {
         int[] optymistyczna = new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
 //        BubbleSort.sort(optymistyczna);
-        InsertionSort.sort(optymistyczna);
+//        InsertionSort.sort(optymistyczna);
 //        InsertionSort.sort(pesymistyczna);
+        CountingSort.sort(pesymistyczna, 10);
 
 //        System.out.println(Arrays.toString(pesymistyczna));
         System.out.println(Arrays.toString(optymistyczna));

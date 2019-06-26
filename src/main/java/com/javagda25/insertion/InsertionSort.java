@@ -14,7 +14,7 @@ public class InsertionSort {
                     // przestawienie elementów
                     tablica[indeksPorownywany + 1] = tablica[indeksPorownywany];
                     tablica[indeksPorownywany] = elementPorownywany;
-                }else{
+                } else {
                     break;
                 }
 
@@ -24,4 +24,19 @@ public class InsertionSort {
 
         System.out.println(licznikOperacji);
     }
+
+//    public static void sort(int[] tablica) {
+//        for (int i = 1; i < tablica.length; i++) {
+//            int elementPorownywany = tablica[i];
+//
+//            int indeksPorownywany = i - 1;
+//            while (indeksPorownywany >= 0 && elementPorownywany > tablica[indeksPorownywany]) {
+//                 przestawienie elementów
+//                tablica[indeksPorownywany + 1] = tablica[indeksPorownywany];
+//                tablica[indeksPorownywany] = elementPorownywany;
+//
+//                indeksPorownywany--;
+//            }
+//        }
+//    }
 }
